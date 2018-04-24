@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>APIKey</key>
+	<string>eyJhbGciOiJSU0EtU0hBMjU2IiwidmVyIjoiMSJ9.eyJ2ZXIiOiIzIiwiZW5kcG9pbnRzIjp7ImF1dGh6IjoiaHR0cHM6Ly93d3cuYW1hem9uLmNvbS9hcC9vYSIsInRva2VuRXhjaGFuZ2UiOiJodHRwczovL2FwaS5hbWF6b24uY29tL2F1dGgvbzIvdG9rZW4ifSwiY2xpZW50SWQiOiJhbXpuMS5hcHBsaWNhdGlvbi1vYTItY2xpZW50LjNjZDhlMTYzNjYxZTQwZDk5Mzk5NDA0NTdhNzAwZTJjIiwiYXBwRmFtaWx5SWQiOiJhbXpuMS5hcHBsaWNhdGlvbi4wNmI3NGNhYzgzNzM0NzliYjY5NTY5ZGRhYjRiMmQxNSIsImJ1bmRsZVNlZWRJZCI6ImNvbS5hdmFzb2Z0LlRlc3RBbWF6b25BbGV4YSIsImJ1bmRsZUlkIjoiY29tLmF2YXNvZnQuVGVzdEFtYXpvbkFsZXhhIiwiaXNzIjoiQW1hem9uIiwidHlwZSI6IkFQSUtleSIsImFwcFZhcmlhbnRJZCI6ImFtem4xLmFwcGxpY2F0aW9uLWNsaWVudC40NjlmOTM0MTliMDQ0YmE2YmE4ZWUxNTE4M2JkMDNkNSIsInRydXN0UG9vbCI6bnVsbCwiYXBwSWQiOiJhbXpuMS5hcHBsaWNhdGlvbi1jbGllbnQuNDY5ZjkzNDE5YjA0NGJhNmJhOGVlMTUxODNiZDAzZDUiLCJpZCI6ImFiOGY5ODBkLTljODQtMTFlNy05Nzc5LWU1MzEzMTM5MTQyYSIsImlhdCI6IjE1MDU3NDc5Mjg2MDMifQ==.nYf2msDyZFYYHgtRqEair7/AYY5Kdcj9qI4nAnUCLRNeVM7b5gr7yW/o4tzJ3F93omb/+IZGg7ecbdVj+OkXI9MqM2xYDwD2QwPrl1cl8u+O9o1BQg7wyjCdAMLS6V1lAiczZdF37oPtMYO52DRF/ynrlVvlc+9gB9/v9VVZSFV+lr0uNJcF6+Mt20nw2YtPp8aJZl1nYPINSJ4QbpqwhKS8+8R20IsP/V/YYa3nv2/dWv5Dpd43OG38+DIPwG+flse8QhRH8Y8WLwN8s+qpRCrrfbsCt6WjmpC+gqtXTX3ePoPFHjG5c8QnkWbej7q1BJmRC1qWLe/q8sxLXNdVQA==</string>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+</dict>
+</plist>

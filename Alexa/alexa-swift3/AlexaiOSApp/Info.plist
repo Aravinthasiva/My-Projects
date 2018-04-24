@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>APIKey</key>
+	<string>eyJhbGciOiJSU0EtU0hBMjU2IiwidmVyIjoiMSJ9.eyJ2ZXIiOiIzIiwiZW5kcG9pbnRzIjp7ImF1dGh6IjoiaHR0cHM6Ly93d3cuYW1hem9uLmNvbS9hcC9vYSIsInRva2VuRXhjaGFuZ2UiOiJodHRwczovL2FwaS5hbWF6b24uY29tL2F1dGgvbzIvdG9rZW4ifSwiY2xpZW50SWQiOiJhbXpuMS5hcHBsaWNhdGlvbi1vYTItY2xpZW50LmI3NDcyYzhiMDM1YTQ4N2FiZmY1M2JjMzFhNjgxYjk3IiwiYXBwRmFtaWx5SWQiOiJhbXpuMS5hcHBsaWNhdGlvbi4wNmI3NGNhYzgzNzM0NzliYjY5NTY5ZGRhYjRiMmQxNSIsImJ1bmRsZVNlZWRJZCI6ImNvbS5hdmFzb2Z0LkFsZXhhaU9TQXBwIiwiYnVuZGxlSWQiOiJjb20uYXZhc29mdC5BbGV4YWlPU0FwcCIsImlzcyI6IkFtYXpvbiIsInR5cGUiOiJBUElLZXkiLCJhcHBWYXJpYW50SWQiOiJhbXpuMS5hcHBsaWNhdGlvbi1jbGllbnQuYWU4MjA5MmE4OGJhNGY1N2EzZTI0ZTE4MmU0NTUyYTgiLCJ0cnVzdFBvb2wiOm51bGwsImFwcElkIjoiYW16bjEuYXBwbGljYXRpb24tY2xpZW50LmFlODIwOTJhODhiYTRmNTdhM2UyNGUxODJlNDU1MmE4IiwiaWQiOiIwYmJiZTkxYS00MjcyLTRjNzQtYjc1NC0zZDIxZTY0M2NlNDMiLCJpYXQiOiIxNTA1ODk1OTE3MDM3In0=.h9LyLt5B8b7BxIZmLeo/VWh/jphG4hjx18ROLaY3503IobsBa7YvHklaDz5AOEUdCShRzZOqW3IYVb6SbY16FRelUJ5P5q2oOrUQjRUZpPlZFavVBRZYPRQbgp2nxhu4X+p2xc6JqjhmZdS1lk2aTWGrTHEe0s88KrnnOL1o2F2wKpwfAHRJRaEE0BZRscPC70Zo3ly0R10Emhj+J8fsGmAja5UPL760MY6c0SUjWfLytJoDlE4dUcQJq2FPKTW3jKV1DrtWMAcWh6vUmcLyKbqSmI8SRzkA82jP27sOBgqrgfxK5hOM/vZLG7vWwKpaRjXUd1ozRDyVgY6dWpWQLw==</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>AlexaiOSApp</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>com.avasoft.AlexaiOSApp</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>amzn-com.avasoft.AlexaiOSApp</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Audio input for Alexa</string>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UIRequiresFullScreen</key>
+	<false/>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+	</array>
+</dict>
+</plist>

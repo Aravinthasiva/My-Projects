@@ -1,0 +1,346 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42D80DCA1F6FF01100166FEF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D80DC91F6FF01100166FEF /* main.m */; };
+		42D80DCD1F6FF01100166FEF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D80DCC1F6FF01100166FEF /* AppDelegate.m */; };
+		42D80DD01F6FF01100166FEF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D80DCF1F6FF01100166FEF /* ViewController.m */; };
+		42D80DD31F6FF01100166FEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42D80DD11F6FF01100166FEF /* Main.storyboard */; };
+		42D80DD51F6FF01100166FEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42D80DD41F6FF01100166FEF /* Assets.xcassets */; };
+		42D80DD81F6FF01100166FEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42D80DD61F6FF01100166FEF /* LaunchScreen.storyboard */; };
+		42D80DE31F6FF1A200166FEF /* LoginWithAmazon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42D80DE21F6FF1A200166FEF /* LoginWithAmazon.framework */; };
+		42D80DE61F6FF2FF00166FEF /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42D80DE51F6FF2FF00166FEF /* Security.framework */; };
+		42D80DE81F6FF30C00166FEF /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42D80DE71F6FF30C00166FEF /* SafariServices.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		42D80DC51F6FF01100166FEF /* TestAmazonAlexa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestAmazonAlexa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42D80DC91F6FF01100166FEF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		42D80DCB1F6FF01100166FEF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		42D80DCC1F6FF01100166FEF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		42D80DCE1F6FF01100166FEF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		42D80DCF1F6FF01100166FEF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		42D80DD21F6FF01100166FEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		42D80DD41F6FF01100166FEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42D80DD71F6FF01100166FEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		42D80DD91F6FF01100166FEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42D80DE21F6FF1A200166FEF /* LoginWithAmazon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LoginWithAmazon.framework; sourceTree = "<group>"; };
+		42D80DE51F6FF2FF00166FEF /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		42D80DE71F6FF30C00166FEF /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42D80DC21F6FF01100166FEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42D80DE81F6FF30C00166FEF /* SafariServices.framework in Frameworks */,
+				42D80DE61F6FF2FF00166FEF /* Security.framework in Frameworks */,
+				42D80DE31F6FF1A200166FEF /* LoginWithAmazon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42D80DBC1F6FF01100166FEF = {
+			isa = PBXGroup;
+			children = (
+				42D80DC71F6FF01100166FEF /* TestAmazonAlexa */,
+				42D80DE01F6FF15A00166FEF /* Frameworks */,
+				42D80DC61F6FF01100166FEF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		42D80DC61F6FF01100166FEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42D80DC51F6FF01100166FEF /* TestAmazonAlexa.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42D80DC71F6FF01100166FEF /* TestAmazonAlexa */ = {
+			isa = PBXGroup;
+			children = (
+				42D80DCB1F6FF01100166FEF /* AppDelegate.h */,
+				42D80DCC1F6FF01100166FEF /* AppDelegate.m */,
+				42D80DCE1F6FF01100166FEF /* ViewController.h */,
+				42D80DCF1F6FF01100166FEF /* ViewController.m */,
+				42D80DD11F6FF01100166FEF /* Main.storyboard */,
+				42D80DD41F6FF01100166FEF /* Assets.xcassets */,
+				42D80DD61F6FF01100166FEF /* LaunchScreen.storyboard */,
+				42D80DD91F6FF01100166FEF /* Info.plist */,
+				42D80DC81F6FF01100166FEF /* Supporting Files */,
+			);
+			path = TestAmazonAlexa;
+			sourceTree = "<group>";
+		};
+		42D80DC81F6FF01100166FEF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				42D80DC91F6FF01100166FEF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		42D80DE01F6FF15A00166FEF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42D80DE71F6FF30C00166FEF /* SafariServices.framework */,
+				42D80DE51F6FF2FF00166FEF /* Security.framework */,
+				42D80DE21F6FF1A200166FEF /* LoginWithAmazon.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42D80DC41F6FF01100166FEF /* TestAmazonAlexa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42D80DDC1F6FF01100166FEF /* Build configuration list for PBXNativeTarget "TestAmazonAlexa" */;
+			buildPhases = (
+				42D80DC11F6FF01100166FEF /* Sources */,
+				42D80DC21F6FF01100166FEF /* Frameworks */,
+				42D80DC31F6FF01100166FEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestAmazonAlexa;
+			productName = TestAmazonAlexa;
+			productReference = 42D80DC51F6FF01100166FEF /* TestAmazonAlexa.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42D80DBD1F6FF01100166FEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = MacMini3;
+				TargetAttributes = {
+					42D80DC41F6FF01100166FEF = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 3H2VF3U4FQ;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 42D80DC01F6FF01100166FEF /* Build configuration list for PBXProject "TestAmazonAlexa" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42D80DBC1F6FF01100166FEF;
+			productRefGroup = 42D80DC61F6FF01100166FEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42D80DC41F6FF01100166FEF /* TestAmazonAlexa */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42D80DC31F6FF01100166FEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42D80DD81F6FF01100166FEF /* LaunchScreen.storyboard in Resources */,
+				42D80DD51F6FF01100166FEF /* Assets.xcassets in Resources */,
+				42D80DD31F6FF01100166FEF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42D80DC11F6FF01100166FEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42D80DD01F6FF01100166FEF /* ViewController.m in Sources */,
+				42D80DCD1F6FF01100166FEF /* AppDelegate.m in Sources */,
+				42D80DCA1F6FF01100166FEF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		42D80DD11F6FF01100166FEF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42D80DD21F6FF01100166FEF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		42D80DD61F6FF01100166FEF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42D80DD71F6FF01100166FEF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42D80DDA1F6FF01100166FEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		42D80DDB1F6FF01100166FEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42D80DDD1F6FF01100166FEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3H2VF3U4FQ;
+				FRAMEWORK_SEARCH_PATHS = "/Users/macmini1/Documents/Amazon-iOS-SDKs/LoginWithAmazon";
+				INFOPLIST_FILE = TestAmazonAlexa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.avasoft.TestAmazonAlexa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		42D80DDE1F6FF01100166FEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3H2VF3U4FQ;
+				FRAMEWORK_SEARCH_PATHS = "/Users/macmini1/Documents/Amazon-iOS-SDKs/LoginWithAmazon";
+				INFOPLIST_FILE = TestAmazonAlexa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.avasoft.TestAmazonAlexa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42D80DC01F6FF01100166FEF /* Build configuration list for PBXProject "TestAmazonAlexa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42D80DDA1F6FF01100166FEF /* Debug */,
+				42D80DDB1F6FF01100166FEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42D80DDC1F6FF01100166FEF /* Build configuration list for PBXNativeTarget "TestAmazonAlexa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42D80DDD1F6FF01100166FEF /* Debug */,
+				42D80DDE1F6FF01100166FEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42D80DBD1F6FF01100166FEF /* Project object */;
+}
